@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+.sidebar {
+  flex: 0.35;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+}
+
+.moreoptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 8vw;
+}
+
+.moreoptions > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+
+.sidebar_search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 39px;
+  padding: 10px;
+}
+.sidebar_searchContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+}
+
+.sidebar_searchContainer > input {
+  border: none;
+  margin-left: 10px;
+}
+
+.sidebar_searchContainer > .MuiSvgIcon-root {
+  color: gray;
+}
+.sidebar_chat {
+  background-color: white;
+  flex: 1;
+  overflow: scroll;
+}
