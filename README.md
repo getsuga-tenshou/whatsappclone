@@ -1,3 +1,5 @@
 # whatsappclone
 
-A whatsapp clone with React , connected with Firebase and google authentication
+A whatsapp clone with React , connected with Firebase and google authentication to login
+
+
