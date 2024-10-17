@@ -12,7 +12,6 @@ This is a **WhatsApp Clone** project, built using **React.js** and **Firebase** 
 ## Technology Stack
 - **Frontend**: React.js, JavaScript, CSS
 - **Backend**: Firebase Firestore for database, Firebase Authentication for user management
-- **Hosting**: Firebase Hosting
 - **Other Libraries**: Firebase SDK, React Router for navigation
 
 ## Setup and Installation
